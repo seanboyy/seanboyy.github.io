@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<line x1="100" y1="300" x2="250" y2="300" style="stroke:#a06;stroke-width:8"/>
+<line x1="100" y1="400" x2="250" y2="350" style="stroke:#a06;stroke-width:8"/>
+<line x1="500" y1="350" x2="650" y2="400" style="stroke:#a06;stroke-width:8"/>
+<line x1="500" y1="150" x2="650" y2="150" style="stroke:#a06;stroke-width:8"/>
+<!--First yellow curve-->
+<path d="M250,350 S375,300 500,350" style="stroke:#a80;stroke-width:3" fill="none"/>
+<!--Second yellow curve-->
+<path d="M250,350 C250,360 425,160 500,150" style="stroke:#a80;stroke-width:3" fill="none"/>
+<!--First green curve-->
+<path d="M250,300 S325,300 500,350" style="stroke:#086;stroke-width:3" fill="none"/>
+<!--Second greencurve-->
+<path d="M250,300 C325,300 400,150 500,150" style="stroke:#086;stroke-width:3" fill="none"/>
+<!--Blue curve-->
+<path d="M250,350 C450,300 350,150 500,150" style="stroke:#53c;stroke-width:3" fill="none"/>
+</svg>

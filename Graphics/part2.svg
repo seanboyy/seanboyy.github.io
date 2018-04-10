@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image id="img1" xlink:href="http://srufaculty.sru.edu/david.dailey/public/machines/fireengine.gif" x="200" y="200" clip-path="url(#clip)"/>
+<path d="M 400,300 C500,500 300,500 400,300 C525,100 625,275 400,300 C175,275 275,100 400,300" style="stroke:black;stroke-width:10;stroke-dasharray:7,6,3,6" fill="none"/>
+<clipPath id="clip">
+<path d="M 400,300 C500,500 300,500 400,300 C525,100 625,275 400,300 C175,275 275,100 400,300"/>
+</clipPath>
+</svg>

@@ -38,11 +38,19 @@
 			scene.add( cube4 );
 			cube4.position.x =2.5
 			
-			var material = new THREE.MeshLambertMaterial({color: "white"});
+			var material = new THREE.MeshLambertMaterial( { color: "white" } );
 			var geometry = new THREE.SphereGeometry(2, 20, 20);
 			var sphere = new THREE.Mesh(geometry, material);
 			scene.add(sphere);
 			sphere.position.x = -5;
+			sphere.position.z = -2;
+			
+			var texture = new THREE.TextureLoader().load('18094939.png');
+			var material = new THREE.MeshLambertMaterial({map: texture});
+			var geometry = new THREE.BoxGeometry(1, 1, 1);
+			var cube5 = new THREE.Mesh(geometry, material);
+			scene.add(cube5);
+			cube5.position.y = 2;
 			
 			var light = new THREE.PointLight(0xffffff, 1.2);
 			light.position.set(-1, 2, 2);

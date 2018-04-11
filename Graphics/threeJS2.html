@@ -37,6 +37,13 @@
 			var cube4 = new THREE.Mesh( geometry, material );
 			scene.add( cube4 );
 			cube4.position.x =2.5
+			
+			var material = new THREE.MeshLambertMaterial({color: "white"});
+			var geometry = new THREE.SphereGeometry(5, 20, 20);
+			var sphere = new THREE.Mesh(geometry, material);
+			scene.add(sphere);
+			sphere.position.x = -5;
+			
 			var light = new THREE.PointLight(0xffffff, 1.2);
 			light.position.set(-1, 2, 2);
 			scene.add(light);

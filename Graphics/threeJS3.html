@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="18094939.png"/>
+		<title>Three JS app 3</title>
+		<style>
+			body { margin:0;}
+			canvas { width: 100%; height: 100%; }
+		</style>
+	</head>
+	<body>
+		<script src = "https://threejs.org/build/three.js"></script>
+		<script>
+			var backgroundColor = 0x553355;
+			var color1 = 0x40A080;
+			var color2 = 0x864824;
+			var scene = new THREE.Scene();
+			var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+			
+			var renderer = new THREE.WebGLRenderer();
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			document.body.appendChild(renderer.domElement);
+			renderer.setClearColor(0x553355, 1);
+			
+			var geometry = new THREE.CylinderGeometry(2, 2, 5, 6, 1, true);
+			for(var i = 0; i < geometry.faces.length; ++i){
+				if(i % 2 == 0) geometry.faces[i].color = color1;
+				else geometry.faces[i].color = color2;
+			}
+			var material = new THREE.MeshBasicMaterial({color: "white", vertexColors: THREE.FaceColors});
+			material.side = THREE.DoubleSide;
+			var cylinder = new THREE.Mesh(geometry, material);
+			scene.add(cylinder);
+			cylinder.position.y = 0;
+			cylinder.position.z = -4;
+			cylinder.rotation.x = 90;
+			cylinder.rotation.y = 33;
+            
+            var light = new THREE.PointLight(0xffffff, 1.2);
+        
+			scene.add(light);
+			
+			camera.position.z = 5;
+			
+			//var animate = function(){
+			//	requestAnimationFrame(animate);
+			//	
+			//	cube.rotation.x += 0.1;
+			//	cube.rotation.y += 0.1;
+			//	
+			//	renderer.render(scene, camera);
+			//};
+			//animate();
+			renderer.render(scene, camera);
+		</script>
+	</body>
+</html>

@@ -10,6 +10,7 @@
 	<body>
 		<script src=" https://threejs.org/build/three.js"></script>
 		<script>
+			var texture = new THREE.TextureLoader().load('18094939.png');
 			var scene = new THREE.Scene();
 			var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
 			var renderer = new THREE.WebGLRenderer();
@@ -38,19 +39,20 @@
 			scene.add( cube4 );
 			cube4.position.x =2.5
 			
-			var material = new THREE.MeshLambertMaterial( { color: "white" } );
+			var material = new THREE.MeshLambertMaterial( { color: 0x8080F0 } );
 			var geometry = new THREE.SphereGeometry(2, 20, 20);
 			var sphere = new THREE.Mesh(geometry, material);
 			scene.add(sphere);
 			sphere.position.x = -5;
 			sphere.position.z = -2;
 			
-			var texture = new THREE.TextureLoader().load('18094939.png');
-			var material = new THREE.MeshLambertMaterial({map: texture});
+			var material = new THREE.MeshBasicMaterial({map: texture});
 			var geometry = new THREE.BoxGeometry(1, 1, 1);
 			var cube5 = new THREE.Mesh(geometry, material);
 			scene.add(cube5);
 			cube5.position.y = 2;
+			cube5.position.x = -3;
+			cube5.position.z = -4;
 			
 			var light = new THREE.PointLight(0xffffff, 1.2);
 			light.position.set(-1, 2, 2);
@@ -61,9 +63,11 @@
 			camera.position.z = 5;
 			camera.position.x = -1;
 			camera.position.y = 2;
-			renderer.render(scene, camera);
 			
-			
+			var animate = function(){		
+				renderer.render(scene, camera);
+			};
+			animate();
 		</script>
 	</body>
 </html>

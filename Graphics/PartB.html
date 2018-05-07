@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Final Project part B</title>
+<link rel="shortcut icon" href="18094939.png"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<style>
+#label{
+	color: #00FF00;
+	font-size: 40px;
+	font-family: "Arial";
+}
+#textBox{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+#optionsPanel{
+	position: fixed;
+	font-family: "Arial";
+	background-color:white;
+}
+</style>
+<div id="optionsPanel">
+<div id="xaxis">
+X-axis
+<input name="xcolor" id="xr" type="radio" value="red" checked>Red</input>
+<input name="xcolor" id="xg" type="radio" value="green">Green</input>
+<input name="xcolor" id="xb" type="radio" value="blue">Blue</input>
+</div>
+<div id="yaxis">
+Y-axis
+<input name="ycolor" id="yr" type="radio" value="red" checked>Red</input>
+<input name="ycolor" id="yg" type="radio" value="green">Green</input>
+<input name="ycolor" id="yb" type="radio" value="blue">Blue</input>
+</div>
+</div>
+<div id="textBox">
+<p id="label"><b>Click on the Screen to find a color's RGB</b></p>
+</div>
+<script>
+$(document).mousemove(function(event){
+    var $width = ($(document).width())/256;
+    var $height = ($(document).height())/256;
+	var $pageX = parseInt(event.pageX / $width,10);
+	var $pageY = parseInt(event.pageY / $height,10);
+	if($("input[name=xcolor]:checked").val() == "red"){
+		if($("input[name=ycolor]:checked").val() == "red"){
+			$("body").css("background-color", "#FF0000");
+		}
+		if($("input[name=ycolor]:checked").val() == "green"){
+			$("body").css("background-color", "rgb(" + $pageX + "," + $pageY + ",0)");
+		}
+		if($("input[name=ycolor]:checked").val() == "blue"){
+			$("body").css("background-color", "rgb(" + $pageX + ",0," + $pageY + ")");
+		}
+	}
+	else if($("input[name=xcolor]:checked").val() == "green"){
+		if($("input[name=ycolor]:checked").val() == "red"){
+			$("body").css("background-color", "rgb(" + $pageY + "," + $pageX + ",0)");
+		}
+		if($("input[name=ycolor]:checked").val() == "green"){
+			$("body").css("background-color", "#00FF00");
+		}
+		if($("input[name=ycolor]:checked").val() == "blue"){
+			$("body").css("background-color", "rgb(0," + $pageX + "," + $pageY + ")");
+		}
+	}
+	else if($("input[name=xcolor]:checked").val() == "blue"){
+		if($("input[name=ycolor]:checked").val() == "red"){
+			$("body").css("background-color", "rgb(" + $pageY + ",0," + $pageX + ")");
+		}
+		if($("input[name=ycolor]:checked").val() == "green"){
+			$("body").css("background-color", "rgb(0," + $pageY + "," + $pageX + ")");
+		}
+		if($("input[name=ycolor]:checked").val() == "blue"){
+			$("body").css("background-color", "#0000FF");
+		}
+	}
+});
+$(document).click(function(event){
+    var $width = ($(document).width())/256;
+    var $height = ($(document).height())/256;
+	var $pageX = parseInt(event.pageX / $width,10);
+	var $pageY = parseInt(event.pageY / $height,10);
+	if($("input[name=xcolor]:checked").val() == "red"){
+		if($("input[name=ycolor]:checked").val() == "red"){
+			$("#label").text("255, 0, 0");
+			$("#label").css("color", "#00FFFF");
+			$("#textBox").css("background-color", "#FF0000");
+		}
+		if($("input[name=ycolor]:checked").val() == "green"){
+			$("#label").text("" + $pageX + ", " + $pageY + ", 0");
+			$("#label").css("color", "#0000FF");
+			$("#textBox").css("background-color", "rgb(" + $pageX + "," + $pageY + ",0)");
+		}
+		if($("input[name=ycolor]:checked").val() == "blue"){
+			$("#label").text("" + $pageX + ", 0, " + $pageY);
+			$("#label").css("color", "#00FF00");
+			$("#textBox ").css("background-color", "rgb(" + $pageX + ",0," + $pageY + ")");
+		}
+	}
+	else if($("input[name=xcolor]:checked").val() == "green"){
+		if($("input[name=ycolor]:checked").val() == "red"){
+			$("#label").text("" + $pageY + ", " + $pageX + ", 0");
+			$("#label").css("color", "#0000FF");
+			$("#textBox").css("background-color", "rgb(" + $pageY + "," + $pageX + ",0)");
+		}
+		if($("input[name=ycolor]:checked").val() == "green"){
+			$("#label").text("0, 255, 0");
+			$("#label").css("color", "#FF00FF");
+			$("#textBox").css("background-color", "rgb(0, 255, 0)");
+		}
+		if($("input[name=ycolor]:checked").val() == "blue"){
+			$("#label").text("0, " + $pageX + ", " + $pageY);
+			$("#label").css("color", "#FF0000");
+			$("#textBox").css("background-color", "rgb(0," + $pageX + "," + $pageY + ")");
+		}
+	}
+	else if($("input[name=xcolor]:checked").val() == "blue"){
+		if($("input[name=ycolor]:checked").val() == "red"){
+			$("#label").text("" + $pageY + ", 0, " + $pageX);
+			$("#label").css("color", "#00FF00");
+			$("#textBox").css("background-color", "rgb(" + $pageY + ",0," + $pageX + ")");
+		}
+		if($("input[name=ycolor]:checked").val() == "green"){
+			$("#label").text("0, " + $pageY + ", " + $pageX);
+			$("#label").css("color", "#FF0000");
+			$("#textBox").css("background-color", "rgb(0," + $pageY + "," + $pageX + ")");
+		}
+		if($("input[name=ycolor]:checked").val() == "blue"){
+			$("#label").text("0, 0, 255");
+			$("#label").css("color", "#FFFF00");
+			$("#textBox").css("background-color", "rgb(0, 0, 255)");
+		}
+	}
+	$("#textBox").css("border", "solid");
+});
+</script>
+</body>
+</html>

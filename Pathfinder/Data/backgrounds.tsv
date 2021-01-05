@@ -49,7 +49,7 @@ Outrider	Common	(Constitution|Wisdom)	Free	Nature, Plains Lore	Express Rider
 Pathfinder Recruiter	Common	(Wisdom|Charisma)	Free	Diplomacy, City Lore{E}	Group Impression
 Pilgrim	Common	(Wisdom|Charisma)	Free	Religion, Deity Lore{L}	Pilgrim's Token
 Prisoner	Common	(Strength|Constitution)	Free	Stealth, Underworld Lore	Experienced Smuggler
-Raised by Belief	Common	{T}	Free	{T}, Deity Lore{L}	Assurance{T}
+Raised by Belief	Common	{T}	Free	{T}, Deity Lore{T}	Assurance{T}
 Refugee	Common	(Constitution|Wisdom)	Free	Society, City Lore{E}	Streetwise
 Returned	Rare	(Constitution|Wisdom)	Free	Boneyard Lore	Diehard
 Root Worker	Common	(Intelligence|Wisdom)	Free	Occultism, Herbalism Lore	Root Magic
@@ -173,3 +173,23 @@ Blow-In	Rare{P}	(Dexterity|Charisma)	Free	(Deception|Thievery), Underworld Lore	
 Butcher	Rare{P}	(Constitution|Intelligence)	Free	Society, Mercantile Lore	Read Lips
 Circus Born	Rare{P}	(Intelligence|Charisma)	Free	Performance, Circus Born	Experienced Professional
 Clown	Rare{P}	(Dexterity|Charisma)	Free	Performance, Clown Lore	Virtuosic Performer{COMEDY}
+Mystic Seer	Rare{P}	(Intelligence|Wisdom)	Free	Arcana, Scam Lore	Arcane Sense
+Rigger	Rare{P}	(Strength|Dexterity)	Free	Athletics, Circus Lore	Combat Climber
+Demon Slayer	Uncommon{P}	(Strength|Constitution)	Free	Religion, Demon Lore	Recognize Spell, {S}
+Early Explorer	Uncommon{P}	(Strength|Wisdom)	Free	Survival, Pathfinder Society Lore	Forager
+Faction Opportunist	Uncommon{P}	(Intelligence|Wisdom)	Free	Diplomacy, (Guild Lore|Heraldry Lore|Mercantile Lore)	Hobnobber
+Finadar Leshy	Uncommon{P}	(Constitution|Charisma)	Free	Intimidation, Abyssal Lore	Intimidating Glare
+Former Aspis Agent	Uncommon{P}	(Intelligence|Charisma)	Free	Intimidation, Aspis Consortium Lore	Group Coercion
+Iolite Trainee Hobgoblin	Uncommon{P}	(Constitution|Intelligence)	Free	Society, Warfare Lore	Sign Language
+Ruby Phoenix Enthusiast	Uncommon{P}	(Strength|Dexterity)	Free	Athletics, Gladiatorial Lore	Combat Climber, {S}
+Savior of Air	Uncommon{P}	(Dexterity|Charisma)	Free	Acrobatics, (Elemental Lords Lore|Elemental Plane Lore{L}) Cat Fall, {S}
+Scholar of the Sky Key	Uncommon{P}	(Constitution|Intelligence)	Free	Crafting, Engineering Lore	Quick Repair
+Shadow Lodge Defector	Uncommon{P}	(Dexterity|Intelligence)	Free	Deception, Underworld Lore	Lie to Me
+Shadow War Survivor	Uncommon{P}	(Wisdom|Charisma)	Free	Society, Absalom Lore	Streetwise
+Tapestry Refugee	Uncommon{P}	(Constitution|Wisdom)	Free	(Medicine|Stealth), Terrain Lore{L}	Assurance{T}
+Thassilonian Delver	Uncommon{P}	(Constitution|Intelligence)	Free	Arcana, Thassilonian History Lore	Arcane Sense, {S}
+Lesser Scion	Rare{P}	(Dexterity|Intelligence)	Free	Diplomacy, Heraldry Lore	Hobnobber
+Lost and Alone	Rare{P}	(Strength|Charisma)	Free	Intimidation, Warfare Lore	Intimidating Glare
+Missionary	Rare{P}	(Constitution|Wisdom)	Free	Diplomacy, Scribing Lore	Group Impression
+Refugee (Fall of Plaguestone)	Rare{P}	(Constitution|Intelligence)	Free	Survival, Hunting Lore	Forager
+Teamster	Rare{P}	(Strength|Wisdom)	Free	Nature, Mercantile Lore	Train Animal

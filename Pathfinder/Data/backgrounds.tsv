@@ -167,7 +167,7 @@ Sally Guard Neophyte	Rare{P}	(Constitution|Wisdom)	Free	Nature, (Hunting Lore|St
 Sleepless Suns Star	Rare{P}	(Wisdom|Charisma)	Free	Society, (Gladitorial Lore|Genealogy Lore)	{T}, Multilingual
 Undercover Lotus Guard	Rare{P}	(Intelligence|Charisma)	Free	Deception, Art Lore, Underworld Lore	{T}, Charming Liar
 Aerialist	Rare{P}	(Dexterity|Charisma)	Free	Acrobatics, Rope Lore	Cat Fall
-Animal Wrangler	Rare{P}	(Strength|Wisdom)	Free	(Athletics|Nature)	Animal Lore{E}	{T}
+Animal Wrangler	Rare{P}	(Strength|Wisdom)	Free	(Athletics|Nature), Animal Lore{E}	{T}
 Barker	Rare{P}	(Constitution|Charisma)	Free	Intimidation, Crowd Lore	Group Coercion
 Blow-In	Rare{P}	(Dexterity|Charisma)	Free	(Deception|Thievery), Underworld Lore	{T}
 Butcher	Rare{P}	(Constitution|Intelligence)	Free	Society, Mercantile Lore	Read Lips

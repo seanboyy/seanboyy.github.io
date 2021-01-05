@@ -153,7 +153,7 @@ Haunting Vision	Rare{P}	(Constitution|Wisdom)	Free	Religion, Dahak Lore	Student 
 Hellknight Historian	Rare{P}	(Strength|Intelligence)	Free	Society, Architecture Lore	Courtly Graces
 Local Scion	Rare{P}	(Constitution|Charisma)	Free	Crafting, Breachill Lore	Specialty Crafting{L}
 Out-of-Towner	Rare{P}	(Constitution|Intelligence)	Free	Diplomacy, Ancestry Lore{T}	Hobnobber
-Reputation Seeker	Rare{P}	(Dexterity|Intelligence)	Free	Survival, (Darklands Lore|Desert Lore|Jungle Lore), Terrain Expertise{T}
+Reputation Seeker	Rare{P}	(Dexterity|Intelligence)	Free	Survival, (Darklands Lore|Desert Lore|Jungle Lore)	Terrain Expertise{T}
 Returning Descendant	Rare{P}	(Dexterity|Wisdom)	Free	Thievery, Engineering Lore	Pickpocket
 Truth Seeker	Rare{P}	(Strength|Wisdom)	Free	Deception, Politics Lore	Lie to Me
 Ex-Con Token Guard	Rare{P}	(Dexterity|Charisma)	Free	Thievery, (Legal Lore|Underworld Lore)	{T}, Pickpocket

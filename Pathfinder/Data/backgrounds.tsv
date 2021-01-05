@@ -3,7 +3,7 @@ Acolyte	Common	(Intelligence|Wisdom)	Free	Religion, Scribing Lore	Student of the
 Acrobat	Common	(Strength|Dexterity)	Free	Acrobatics, Circus Lore	Steady Balance
 Amnesiac	Rare	Free, Free	Free{S}	None	None
 Animal Whisperer	Common	(Wisdom|Charisma)	Free	Nature, Terrain Lore{L}	Train Animal
-Archaeologist	Common	(Constitution|Inteligence)	Free	Society, Architecture Lore	Additional Lore{L}{SOC}
+Archaeologist	Common	(Constitution|Intelligence)	Free	Society, Architecture Lore	Additional Lore{L}{SOC}
 Artisan	Common	(Strength|Intelligence)	Free	Crafting, Guild Lore	Specialty Crafting{L}
 Artist	Common	(Dexterity|Charisma)	Free	Crafting, Art Lore	Specialty Crafting{L}
 Bandit	Common	(Dexterity|Charisma)	Free	Intimidation, Terrain Lore{L}	Group Coercion
@@ -35,7 +35,7 @@ Guard	Common	(Strength|Charisma)	Free	Intimidation, (Legal Lore|Warfare Lore)	Qu
 Harrow-Led	Common	({R}|{R})	Free	(Occultism|Performance|Society), Harrow Lore	Dubious Knowledge
 Haunted	Rare	(Wisdom|Charisma)	Free	Occultism, {L}{S}	None
 Herbalist	Common	(Constitution|Wisdom)	Free	Nature, Herbalism Lore	Natural Medicine
-Hermit	Common	(Constitution|Inteligence)	Free	(Nature|Occultism), Terrain Lore{L}	Dubious Knowledge
+Hermit	Common	(Constitution|Intelligence)	Free	(Nature|Occultism), Terrain Lore{L}	Dubious Knowledge
 Hookclaw Digger	Common{P}	(Strength|Charisma)	Free	Crafting, Mining Lore, Engineering Lore	Improvise Tool
 Hunter	Common	(Dexterity|Wisdom)	Free	Survival, Tanning Lore	Survey Wildlife
 Insurgent	Common	(Strength|Wisdom)	Free	Deception, Warfare Lore	Lengthy Diversion
@@ -64,8 +64,8 @@ Spell Seeker	Common	(Intelligence|Wisdom)	Free	(Arcana|Occultism), Library Lore	
 Squire	Common	(Strength|Constitution)	Free	Athletics, (Heraldry Lore|Warfare Lore)	Armor Assist
 Street Urchin	Common	(Dexterity|Constitution)	Free	Thievery, City Lore{E}	Pickpocket
 Tax Collector	Common	(Strength|Charisma)	Free	Intimidation, City Lore{E}	Quick Coercion
-Teacher	Commmon	(Intelligence|Wisdom)	Free	(Performance|Society), Academia Lore	Experienced Professional
-Tinker	Common	(Dexterity|Intelligence)	Free	Crafting, Engineering Lore	Specialty Crafting
+Teacher	Common	(Intelligence|Wisdom)	Free	(Performance|Society), Academia Lore	Experienced Professional
+Tinker	Common	(Dexterity|Intelligence)	Free	Crafting, Engineering Lore	Specialty Crafting{L}
 Trailblazer	Common	(Constitution|Wisdom)	Free	Survival, Cartography Lore	Terrain Expertise{L}
 Translator	Common	(Intelligence|Charisma)	Free	Society, Scribing Lore	Multilingual
 Ward	Common	(Constitution|Charisma)	Free	Performance, Genealogy Lore	Fascinating Perfomance
@@ -74,3 +74,102 @@ Aiudara Seeker	Rare	(Intelligence|Wisdom)	Free	Arcana, Portal Lore	Quick Identif
 Hermean Heritor	Rare	(Constitution|Wisdom)	Free	Society, Legal Lore	(Multilingual|Assurance{SOCIETY})
 Legendary Parents	Rare	(Dexterity|Charisma)	Free	Intimidation, Genealogy Lore	Group Coercion
 Touched by Dahak	Rare	(Strength|Charisma)	Free	Athletics, Dragon Lore	Titan Wrestler
+Child of the Puddles	Common{P}	(Dexterity|Intelligence)	Free	Acrobatics, Absalom Lore	Steady Balance
+Diobel Pearl Diver	Common{P}	(Constitution|Dexterity)	Free	Athletics, Ocean Lore	Underwater Marauder
+Freed Slave of Absalom	Common{P}	(Constitution|Intelligence)	Free	Society, Absalom Lore	Streetwise
+Grand Council Bureaucrat	Common{P}	(Charisma|Intelligence)	Free	Society, Government Lore	Group Impression
+Inlander	Common{P}	(Constitution|Wisdom)	Free	Survival, Terrain Lore{L}	Survey Wildlife
+Menagerie Dung Sweeper	Common{P}	(Constitution|Wisdom)	Free	Nature, Animal Lore	Train Animal
+Pathfinder Hopeful	Common{P}	(Constitution|Intelligence)	Free	Society, Pathfinder Society Lore	Additional Lore
+Trade Consortium Underling	Common{P}	(Intelligence|Wisdom)	Free	Society, Business Lore	Experienced Professional
+Aspiring River Monarch	Common{P}	(Wisdom|Charisma)	Free	Society, Politics Lore	Courtly Graces
+Issian Partisan	Common{P}	(Intelligence|Charisma)	Free	Deception, Underworld Lore	Charming Liar
+Razmiran Faithful	Common{P}	(Strength|Charisma)	Free	Intimidation, Razmir Lore	Group Coercion
+Rostland Partisan	Common{P}	(Constitution|Charisma)	Free	Diplomacy, Politics Lore	Group Impression
+Sarkorian Reclaimer	Common{P}	(Constitution|Wisdom)	Free	Medicine, Abyssal Lore	Battle Medicine
+Sarkorian Survivor	Common{P}	(Constitution|Strength)	Free	Survival, Sarkorian History Lore	Forager
+Wonder Taster	Common{P}	(Intelligence|Constitution)	Free	Crafting, Alchemical Lore	Alchemical Crafting
+Belkzen Slayer	Common{P}	(Strength|Charisma)	Free	Intimidation, Orc Lore	Intimidating Glare
+Cursed Family	Common{P}	(Intelligence|Charisma)	Free	Occultism, Curse Lore	Oddity Identification
+Lastwall Survivor	Common{P}	(Constitution|Wisdom)	Free	Medicine, Undead Lore	Battle Medicine
+Molthuni Mercenary	Common{P}	(Constitution|Strength)	Free	Athletics, Mercenary Lore	Experienced Professional
+Nirmathi Guerrilla	Common{P}	(Dexterity|Wisdom)	Free	Survival, Forest Lore	Terrain Stalker{UNDERBRUSH}
+Onyx Trader	Common{P}	(Dexterity|Charisma)	Free	Society, Mercantile Lore	Multilingual
+Ustalavic Academic	Common{P}	(Intelligence|Wisdom)	Free	Crafting, Academia Lore	Skill Training
+Whispering Way Scion	Common{P}	(Intelligence|Wisdom)	Free	Religion, Undead Lore	Student of the Canon
+Black Market Smuggler	Common{P}	(Wisdom|Charisma)	Free	Stealth, Underworld Lore	Experienced Smuggler
+Desert Tracker	Common{P}	(Constitution|Wisdom)	Free	Survival, Desert Lore	Experienced Tracker
+Merabite Prodigy	Common{P}	(Dexterity|Intelligence)	Free	Crafting, Alchemical Lore	Specialty Crafting{ALCHEMY}
+Osirionologist	Common{P}	(Constitution|Intelligence)	Free	Occultism, Ancient Osirion Lore	Oddity Identification
+Purveyor of the Bizarre	Common{P}	(Intelligence|Wisdom)	Free	Arcana, Mercantile Lore	Quick Identification
+Secular Medic	Common{P}	(Wisdom|Dexterity)	Free	Medicine, Anatomy Lore	Battle Medicine
+Thuvian Unifier	Common{P}	(Strength|Charisma)	Free	Intimidation, Politics Lore	Quick Coercion
+Aspiring Free Captain	Common{P}	(Wisdom|Charisma)	Free	Intimidation, Sailing Lore	Group Coercion
+Hermean Expatriate	Common{P}	(Intelligence|Charisma)	Free	Society, Dragon Lore	Skill Training
+Mantis Scion	Common{P}	(Dexterity|Wisdom)	Free	Stealth, Assassin Lore	Assurance{STEALTH}
+Press-Ganged	Common{P}	(Strength|Wisdom)	Free	Society, Sailing Lore	Experienced Professional
+Scholar of the Ancients	Common{P}	(Intelligence|Charisma)	Free	Arcana, Azlant Lore	Quick Identification
+Storm Survivor	Common{P}	(Strength|Wisdom)	Free	Survival, Weather Lore	Forager
+Undersea Enthusiast	Common{P}	(Strength|Constitution)	Free	Athletics, Ocean Lore	Underwater Marauder
+Alkenstar Tinker	Common{P}	(Dexterity|Intelligence)	Free	Crafting, Engineering Lore	Alchemical Crafting
+Geb Crusader	Common{P}	(Constitution|Wisdom)	Free	Religion, Undead Lore	Student of the Canon
+Mana Wastes Refugee	Common{P}	(Constitution|Intelligence)	Free	Arcana, Wilderness Lore	Trick Magic Item
+Nexian Mystic	Common{P}	(Intelligence|Wisdom)	Free	Arcana, Planar Lore{L}	Arcane Sense
+Oenopion Ooze-Tender	Common{P}	(Constitution|Intelligence)	Free	Crafting, Ooze Lore	Dubious Knowledge
+Perfection Seeker	Common{P}	(Dexterity|Wisdom)	Free	Acrobatics, Warfare Lore	Cat Fall
+Quick	Common{P}	(Charisma|Constitution)	Free	Deception, Undead Lore	Charming Liar
+Bekyar Restorer	Common{P}	(Wisdom|Charisma)	Free	Diplomacy, Abyss Lore	Group Impression
+Bonuwat Wavetouched	Common{P}	(Strength|Wisdom)	Free	Athletics, Ocean Lore	Underwater Marauder
+Bright Lion		Common{P}	(Strength|Charisma)	Free	Deception, Mzali Lore	Lie to Me
+Magaambya Academic	Common{P}	(Intelligence|Charisma)	Free	(Arcana|Nature), Academia Lore	Recognize Spell
+Senghor Sailor	Common{P}	(Intelligence|Wisdom)	Free	Crafting, Sailing Lore	Quick Repair
+Shory Seeker	Common{P}	(Dexterity|Intelligence)	Free	Crafting, Shory Lore	Specialty Crafting{L}
+Sodden Scavenger	Common{P}	(Constitution|Wisdom)	Free	Survival, Swamp Lore	Forager
+Vidrian Reformer	Common{P}	(Dexterity|Charisma)	Free	Diplomacy, Politics Lore	Hobnobber
+Atteran Rancher	Common{P}	(Strength|Dexterity)	Free	Nature, Animal Lore	Train Animal
+Bellflower Agent	Common{P}	(Dexterity|Charisma)	Free	Stealth, Underworld Lore	Experienced Smuggler
+Chelish Rebel	Common{P}	(Dexterity|Charisma)	Free	Society, Kintargo Lore	Streetwise
+Child of Westcrown	Common{P}	(Strength|Charisma)	Free	Diplomacy, Westcrown Lore	Group Impression
+Goblinblood Orphan	Common{P}	(Dexterity|Constitution)	Free	Survival, Goblin Lore	Assurance{SURVIVAL}
+Shadow Haunted	Common{P}	(Intelligence|Wisdom)	Free	Intimidation, Shadow Plane Lore	Quick Coercion
+Thrune Loyalist	Common{P}	(Intelligence|Charisma)	Free	Religion, Hell Lore	Student of the Canon
+Mammoth Speaker	Common{P}	(Constitution|Wisdom)	Free	Nature, Animal Lore	Train Animal
+Shoanti Name-Bearer	Common{P}	(Strength|Wisdom)	Free	Athletics, Quah Lore	Combat Climber
+Thassilonian Traveler	Common{P}	(Constitution|Intelligence)	Free	Arcana, Thassilon Lore	Dubious Knowledge
+Ulfen Raider	Common{P}	(Strength|Charisma)	Free	Intimidation, Sailing Lore	Intimidating Glare
+Varisian Wanderer	Common{P}	(Dexterity|Charisma)	Free	Performance, Circus Lore	Fascinating Performance
+Winter's Child	Common{P}	(Constitution|Charisma)	Free	Arcana, Weather Lore	Arcane Sense
+Witch Wary	Common{P}	(Dexterity|Intelligence)	Free	Occultism, Curse Lore	Oddity Identification
+Final Blade Survivor	Common{P}	(Charisma|Wisdom)	Free	Deception, Revolution Lore	Charming Liar
+Kalistrade Follower	Common{P}	(Constitution|Intelligence)	Free	Diplomacy, Kalistrade Lore	Bargain Hunter
+Kyonin Emissary	Common{P}	(Charisma|Intelligence)	Free	Society, Politics Lore	Multilingual
+Lumber Consortium Laborer	Common{P}	(Strength|Dexterity)	Free	Athletics, Forest Lore	Assurance{ATHLETICS}
+Rivethun Adherent	Common{P}	(Constitution|Wisdom)	Free	Occultism, Spirit Lore	Recognize Spell
+Taldan Schemer	Common{P}	(Charisma|Constitution)	Free	Diplomacy, Politics Lore	Hobnobber
+Wildwood Local	Common{P}	(Dexterity|Wisdom)	Free	Nature, Forest Lore	Natural Medicine
+Dragon Scholar	Rare{P}	(Strength|Charisma)	Free	Intimidation, Dragon Lore	Intimidatin Glare
+Emancipated	Rare{P}	(Dexterity|Charisma)	Free	Stealth, Kintargo Lore	Terrain Stalker{L}
+Haunting Vision	Rare{P}	(Constitution|Wisdom)	Free	Religion, Dahak Lore	Student of the Canon
+Hellknight Historian	Rare{P}	(Strength|Intelligence)	Free	Society, Architecture Lore	Courtly Graces
+Local Scion	Rare{P}	(Constitution|Charisma)	Free	Crafting, Breachill Lore	Specialty Crafting{L}
+Out-of-Towner	Rare{P}	(Constitution|Intelligence)	Free	Diplomacy, Ancestry Lore{T}	Hobnobber
+Reputation Seeker	Rare{P}	(Dexterity|Intelligence)	Free	Survival, (Darklands Lore|Desert Lore|Jungle Lore), Terrain Expertise{T}
+Returning Descendant	Rare{P}	(Dexterity|Wisdom)	Free	Thievery, Engineering Lore	Pickpocket
+Truth Seeker	Rare{P}	(Strength|Wisdom)	Free	Deception, Politics Lore	Lie to Me
+Ex-Con Token Guard	Rare{P}	(Dexterity|Charisma)	Free	Thievery, (Legal Lore|Underworld Lore)	{T}, Pickpocket
+Godless Graycloak	Rare{P}	(Constitution|Wisdom)	Free	Religion, Deity Lore{L}	{T}, Quick Identification
+Grizzled Muckrucker	Rare{P}	(Constitution|Charisma)	Free	Survival, (Labor Lore|Underworld Lore)	{T}, Experienced Tracker
+Harbor Guard Moonlighter	Rare{P}	(Strength|Constitution)	Free	Athletics, (Sailing Lore|Hunting Lore)	{T}, Quick Jump
+Learned Guard Prodigy	Rare{P}	(Intelligence|Wisdom)	Free	(Arcana|Occultism), Legal Lore	{T}, Recognize Spell
+Political Scion	Rare{P}	(Constitution|Intelligence)	Free	Diplomacy, Legal Lore	{T}, Hobnobber
+Post Guard of All Trade	Rare{P}	(Dexterity|Intelligence)	Free	Performance, Lore{L}, {T}	{T}, Dubious Knowledge
+Sally Guard Neophyte	Rare{P}	(Constitution|Wisdom)	Free	Nature, (Hunting Lore|Stabing Lore)	Riding Horse{EQ}, Shoddy Half-Plate Armor{EQ}, Shoddy Longsword{EQ}, Shoddy Lance{EQ}
+Sleepless Suns Star	Rare{P}	(Wisdom|Charisma)	Free	Society, (Gladitorial Lore|Genealogy Lore)	{T}, Multilingual
+Undercover Lotus Guard	Rare{P}	(Intelligence|Charisma)	Free	Deception, Art Lore, Underworld Lore	{T}, Charming Liar
+Aerialist	Rare{P}	(Dexterity|Charisma)	Free	Acrobatics, Rope Lore	Cat Fall
+Animal Wrangler	Rare{P}	(Strength|Wisdom)	Free	(Athletics|Nature)	Animal Lore{E}	{T}
+Barker	Rare{P}	(Constitution|Charisma)	Free	Intimidation, Crowd Lore	Group Coercion
+Blow-In	Rare{P}	(Dexterity|Charisma)	Free	(Deception|Thievery), Underworld Lore	{T}
+Butcher	Rare{P}	(Constitution|Intelligence)	Free	Society, Mercantile Lore	Read Lips
+Circus Born	Rare{P}	(Intelligence|Charisma)	Free	Performance, Circus Born	Experienced Professional
+Clown	Rare{P}	(Dexterity|Charisma)	Free	Performance, Clown Lore	Virtuosic Performer{COMEDY}

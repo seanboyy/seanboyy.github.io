@@ -17,7 +17,7 @@ Charlatan	Common	(Intelligence|Charisma)	Free	Deception, Underworld Lore	Charmin
 Cook	Common	(Constitution|Intelligence)	Free	Survival, Cooking Lore	Seasoned
 Courier	Common	(Dexterity|Intelligence)	Free	Society, City Lore{E}	Glean Contents
 Criminal	Common	(Dexterity|Intelligence)	Free	Stealth, Underworld Lore	Experienced Smuggler
-Cultist	Common	(Intelligence|Charisma)	Free	Occultism, (Deity Lore{L}|Cult Lore{E}) Schooled in Secrets
+Cultist	Common	(Intelligence|Charisma)	Free	Occultism, (Deity Lore{L}|Cult Lore{E})	Schooled in Secrets
 Cursed	Rare	(Intelligence|Charisma)	Free	Occultism, Curse	Warding Sign{ACT}
 Detective	Common	(Intelligence|Wisdom)	Free	Society, Underworld Lore	Streetwise
 Dreamer of the Verdant Moon	Uncommon	(Strength|Wisdom)	Free	Survival, Zevgavizeb Lore	Ravening's Desperation

@@ -1,0 +1,76 @@
+Name	Rarity	Boost Req	Other Boost	Skills	Feats
+Acolyte	Common	(Intelligence|Wisdom)	Free	Religion, Scribing Lore	Student of the Canon
+Acrobat	Common	(Strength|Dexterity)	Free	Acrobatics, Circus Lore	Steady Balance
+Amnesiac	Rare	Free, Free	Free{S}	None	None
+Animal Whisperer	Common	(Wisdom|Charisma)	Free	Nature, Terrain Lore{L}	Train Animal
+Archaeologist	Common	(Constitution|Inteligence)	Free	Society, Architecture Lore	Additional Lore{L}{SOC}
+Artisan	Common	(Strength|Intelligence)	Free	Crafting, Guild Lore	Specialty Crafting{L}
+Artist	Common	(Dexterity|Charisma)	Free	Crafting, Art Lore	Specialty Crafting{L}
+Bandit	Common	(Dexterity|Charisma)	Free	Intimidation, Terrain Lore{L}	Group Coercion
+Barber	Common	(Dexterity|Wisdom)	Free	Medicine, Surgery Lore	Risky Surgery
+Barkeep	Common	(Constitution|Charisma)	Free	Diplomacy, Alcohol Lore	Hobnobber
+Barrister	Common	(Intelligence|Charisma)	Free	Diplomacy, Legal Lore	Group Impression
+Blessed	Rare	(Wisdom|Charisma)	Free	Deity Lore{L}{S}	Guidance{SP}{S}
+Bookkeeper	Common	(Intelligence|Wisdom)	Free	Society, Accounting Lore	Eye for Numbers
+Bounty Hunter	Common	(Strength|Wisdom)	Free	Survival, Legal Lore	Experienced Tracker
+Charlatan	Common	(Intelligence|Charisma)	Free	Deception, Underworld Lore	Charming Liar
+Cook	Common	(Constitution|Intelligence)	Free	Survival, Cooking Lore	Seasoned
+Courier	Common	(Dexterity|Intelligence)	Free	Society, City Lore{E}	Glean Contents
+Criminal	Common	(Dexterity|Intelligence)	Free	Stealth, Underworld Lore	Experienced Smuggler
+Cultist	Common	(Intelligence|Charisma)	Free	Occultism, (Deity Lore{L}|Cult Lore{E}) Schooled in Secrets
+Cursed	Rare	(Intelligence|Charisma)	Free	Occultism, Curse	Warding Sign{ACT}
+Detective	Common	(Intelligence|Wisdom)	Free	Society, Underworld Lore	Streetwise
+Dreamer of the Verdant Moon	Uncommon	(Strength|Wisdom)	Free	Survival, Zevgavizeb Lore	Ravening's Desperation
+Droskari Disciple	Common	(Constitution|Intelligence)	Free	Lore, Droskar Lore	Skill Training
+Emissary	Common	(Intelligence|Charisma)	Free	Society, City Lore{E}	Multilingual
+Entertainer	Common	(Dexterity|Charisma)	Free	Performance, Theater Lore	Fascinating Performance
+Farmhand	Common	(Constitution|Wisdom)	Free	Athletics, Farming Lore	Assurance{ATHLETICS}
+Feral Child	Rare	(Strength|Dexterity|Constitution)	None	Nature, Survival	Low-Light Vision{DARK}, Imprecise Scent{30}, Forager
+Feybound	Rare	(Dexterity|Charisma)	Free	Fey Lore	Fey's Fortune
+Field Medic	Common	(Constitution|Wisdom)	Free	Medicine, Warfare Lore	Battle Medicine
+Fortune Teller	Common	(Intelligence|Charisma)	Free	Occultism, Fortune-Telling Lore	Oddity Identification
+Gambler	Common	(Dexterity|Charisma)	Free	Deception, Games Lore	Lie to Me
+Gladiator	Common	(Strength|Charisma)	Free	Performance, Gladiatorial Lore	Impressive Performance
+Guard	Common	(Strength|Charisma)	Free	Intimidation, (Legal Lore|Warfare Lore)	Quick Coercion
+Harrow-Led	Common	({R}|{R})	Free	(Occultism|Performance|Society), Harrow Lore	Dubious Knowledge
+Haunted	Rare	(Wisdom|Charisma)	Free	Occultism, {L}{S}	None
+Herbalist	Common	(Constitution|Wisdom)	Free	Nature, Herbalism Lore	Natural Medicine
+Hermit	Common	(Constitution|Inteligence)	Free	(Nature|Occultism), Terrain Lore{L}	Dubious Knowledge
+Hookclaw Digger	Common{P}	(Strength|Charisma)	Free	Crafting, Mining Lore, Engineering Lore	Improvise Tool
+Hunter	Common	(Dexterity|Wisdom)	Free	Survival, Tanning Lore	Survey Wildlife
+Insurgent	Common	(Strength|Wisdom)	Free	Deception, Warfare Lore	Lengthy Diversion
+Laborer	Common	(Strength|Constitution)	Free	Athletics, Labor Lore	Hefty Hauler
+Martial Disciple	Common	(Strength|Dexterity)	Free	(Acrobatics|Athletics), Warfare Lore	{T}
+Merchant	Common	(Intelligence|Charisma)	Free	Diplomacy, Mercantile Lore	Bargain Hunter
+Miner	Common	(Strength|Wisdom)	Free	Survival, Mining Lore	Terrain Expertise{UNDERGROUND}
+Noble	Common	(Intelligence|Charisma)	Free	Society, (Genealogy Lore|Heraldry Lore)	Courtly Graces
+Nomad	Common	(Constitution|Wisdom)	Free	Survival, Terrain Lore{L}	Assurance{SURVIVAL}
+Outrider	Common	(Constitution|Wisdom)	Free	Nature, Plains Lore	Express Rider
+Pathfinder Recruiter	Common	(Wisdom|Charisma)	Free	Diplomacy, City Lore{E}	Group Impression
+Pilgrim	Common	(Wisdom|Charisma)	Free	Religion, Deity Lore{L}	Pilgrim's Token
+Prisoner	Common	(Strength|Constitution)	Free	Stealth, Underworld Lore	Experienced Smuggler
+Raised by Belief	Common	{T}	Free	{T}, Deity Lore{L}	Assurance{T}
+Refugee	Common	(Constitution|Wisdom)	Free	Society, City Lore{E}	Streetwise
+Returned	Rare	(Constitution|Wisdom)	Free	Boneyard Lore	Diehard
+Root Worker	Common	(Intelligence|Wisdom)	Free	Occultism, Herbalism Lore	Root Magic
+Royalty	Rare	(Intelligence|Charisma)	Free	Society	Courtly Graces
+Sailor	Common	(Strength|Dexterity)	Free	Athletics, Sailing Lore	Underwater Marauder
+Scavenger	Common	(Intelligence|Wisdom)	Free	Survival, City Lore{E}	Forager
+Scholar	Common	(Intelligence|Wisdom)	Free	(Arcana|Nature|Occultism|Religion), Academia Lore	Assurance{T}
+Scout	Common	(Dexterity|Wisdom)	Free	Survival, Terrain Lore{L}	Forager
+Servant	Common	(Dexterity|Charisma)	Free	Society, Labor Lore	Read Lips
+Sewer Dragon	Common{P}	(Dexterity|Intelligence)	Free	Crafting, Kobold Lore	Snare Crafting
+Spell Seeker	Common	(Intelligence|Wisdom)	Free	(Arcana|Occultism), Library Lore	Recognize Spell
+Squire	Common	(Strength|Constitution)	Free	Athletics, (Heraldry Lore|Warfare Lore)	Armor Assist
+Street Urchin	Common	(Dexterity|Constitution)	Free	Thievery, City Lore{E}	Pickpocket
+Tax Collector	Common	(Strength|Charisma)	Free	Intimidation, City Lore{E}	Quick Coercion
+Teacher	Commmon	(Intelligence|Wisdom)	Free	(Performance|Society), Academia Lore	Experienced Professional
+Tinker	Common	(Dexterity|Intelligence)	Free	Crafting, Engineering Lore	Specialty Crafting
+Trailblazer	Common	(Constitution|Wisdom)	Free	Survival, Cartography Lore	Terrain Expertise{L}
+Translator	Common	(Intelligence|Charisma)	Free	Society, Scribing Lore	Multilingual
+Ward	Common	(Constitution|Charisma)	Free	Performance, Genealogy Lore	Fascinating Perfomance
+Warrior	Common	(Strength|Constitution)	Free	Intimidation, Warfare Lore	Intimidating Glare
+Aiudara Seeker	Rare	(Intelligence|Wisdom)	Free	Arcana, Portal Lore	Quick Identification
+Hermean Heritor	Rare	(Constitution|Wisdom)	Free	Society, Legal Lore	(Multilingual|Assurance{SOCIETY})
+Legendary Parents	Rare	(Dexterity|Charisma)	Free	Intimidation, Genealogy Lore	Group Coercion
+Touched by Dahak	Rare	(Strength|Charisma)	Free	Athletics, Dragon Lore	Titan Wrestler

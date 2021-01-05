@@ -1,4 +1,4 @@
-Name	Hit Points	Size  Speed	Ability Increases	Ability Flaws	Languages	Skills
+Name	Hit Points	Size	Speed	Ability Increases	Ability Flaws	Languages	Skills
 Dwarf	10	Medium	20 feet	Constitution, Wisdom, Free	Charisma	Common, Dwarven	Darkvision{SK}, Clan Dagger{EQ}
 Elf	6	Medium	30 feet	Dexterity, Intelligence, Free	Constitution	Common, Elven	Low-Light Vision{SK}
 Gnome	8	Small	25 feet	Constitution, Charisma, Free	Strength	Common, Gnomish, Sylvan	Low-Light Vision{SK}

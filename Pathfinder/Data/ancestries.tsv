@@ -3,13 +3,13 @@ Elf	6	Medium	30 feet	Dexterity, Intelligence, Free	Constitution	Common, Elven	Lo
 Gnome	8	Small	25 feet	Constitution, Charisma, Free	Strength	Common, Gnomish, Sylvan	Low-Light Vision{SK}
 Goblin	6	Small	25 feet	Dexterity, Charisma, Free	Wisdom	Common, Goblin	Darkvision{SK}
 Halfling	6	Small	25 feet	Dexterity, Wisdom, Free	Strength	Common, Halfling	Keen Eyes{SK}
-Human	8	Medium	25 feet	Free, Free	None	Common
+Human	8	Medium	25 feet	Free, Free	None	Common	None
 Catfolk	8	Medium	25 feet	Dexterity, Charisma, Free	Wisdom	Common, Amurrun	Low-Light Vision{SK}, Land on Your Feet{SK}
 Hobgoblin	8	Medium	25 feet	Constitution, Intelligence, Free	Wisdom	Common, Goblin	Darkvision{SK}
 Kobold	6	Small	25 feet	Dexterity, Charisma, Free	Constitution	Common, Draconic	Darkvision{SK}, Draconic Exemplar{SK}
 Leshy	8	Small	25 feet	Constitution, Wisdom, Free	Intelligence	Common, Sylvan	Low-Light Vision{SK}, Plant Nourishment{SK}
 Lizardfolk	8	Medium	25 feet	Strength, Wisdom, Free	Intelligence	Common, Iruxi	Aquatic Adaptation{SK}, Claws{EQ}
-Orc	10	Medium	25 feet	Strength, Free	None	Common, Orcish	Darkvision{SK}
+Orc	10	Medium	25 feet	Strength, Free	None	Common, Orcish	Darkvision{SK}	None
 Ratfolk	6	Small	25 feet	Dexterity, Intelligence, Free	Strength	Common, Ysoki	Low-Light Vision{SK}
 Shoony	6	Small	25 feet	Dexterity, Charisma, Free	Constitution	Common, Shoony	Low-Light Vision{SK}, Blunt Snout{SK}
 Tengu	6	Medium	25 feet	Dexterity, Free	None	Common, Tengu	Low-Light Vision{SK}, Sharp Beak{EQ}
